@@ -1,5 +1,4 @@
 # ProyectoIntegrador1
 
 
-TALLERES
-Juan Felipe Londoño Gaviria
+TALLERES [Juan Felipe Londoño Gaviria] 

@@ -1,4 +1,13 @@
 # ProyectoIntegrador1
 
 
-TALLERES [Juan Felipe Londoño Gaviria] 
+-TALLERES 
+
+AUTOR: 
+
+    Juan Felipe Londoño Gaviria
+
+    Universidad Eafit
+
+    Medellín, Colombia
+

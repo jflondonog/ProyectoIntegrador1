@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "65e48ee7-f5c8-4030-9d21-a5a28a8590b0",
+		"name": "EverGreen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getModa",
+			"item": [
+				{
+					"name": "getModa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"valor\" : 100\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/mediciones/moda",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"mediciones",
+								"moda"
+							]
+						},
+						"description": "getModa"
+					},
+					"response": [
+						{
+							"name": "getModa",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:5000/mediciones/moda",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"mediciones",
+										"moda"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Server",
+									"value": "Werkzeug/0.15.5 Python/3.7.4"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 21 Aug 2019 23:33:14 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "97"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "getAll",
+			"item": [
+				{
+					"name": "getAll",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"valor\" : 100\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/mediciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"mediciones"
+							]
+						},
+						"description": "getAll"
+					},
+					"response": [
+						{
+							"name": "getAll",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"valor\" : 100\n}"
+								},
+								"url": {
+									"raw": "http://localhost:5000/mediciones",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"mediciones"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1841"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Server",
+									"value": "Werkzeug/0.15.5 Python/3.7.4"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 21 Aug 2019 23:36:00 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"fecha\": \"2019-08-20 15:38:43\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 100,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:40:56\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 98,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:41:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 101,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:43:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 101,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:46:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 98,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:50:20\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 98,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 16:01:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 99,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 16:03:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 16:08:20\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 16:14:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 16:23:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 16:26:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 96,\n        \"variable\": \"Temperatura\"\n    }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Post",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"valor\" : 100\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/mediciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"mediciones"
+							]
+						},
+						"description": "Post"
+					},
+					"response": [
+						{
+							"name": "Post",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"valor\" : 95\n}"
+								},
+								"url": {
+									"raw": "http://localhost:5000/mediciones",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"mediciones"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1994"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Server",
+									"value": "Werkzeug/0.15.5 Python/3.7.4"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 21 Aug 2019 23:37:53 GMT"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"fecha\": \"2019-08-20 15:38:43\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 100,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:40:56\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 98,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:41:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 101,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:43:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 101,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:46:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 98,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 15:50:20\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 98,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 16:01:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 99,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 16:03:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-20 16:08:20\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 16:14:16\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 16:23:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 97,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 16:26:18\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 96,\n        \"variable\": \"Temperatura\"\n    },\n    {\n        \"fecha\": \"2019-08-21 18:37:53\",\n        \"sensor\": \"DS18B20\",\n        \"unidades\": \"Centigrados\",\n        \"valor\": 95,\n        \"variable\": \"Temperatura\"\n    }\n]"
+						}
+					]
+				}
+			]
+		}
+	]
+}
